@@ -1,0 +1,6 @@
+@OmniPay.API_HostAddress = http://localhost:5162
+
+GET {{OmniPay.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
