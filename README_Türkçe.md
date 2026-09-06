@@ -65,9 +65,3 @@ Kullanılan bazı handler'lar:
 - .NET SDK 8.0 veya üzeri
 - PostgreSQL veya Docker
 
-### Veritabanı bağlantısı
-
-Veritabanı bağlantı bilgisini environment variable olarak verebilirsin:
-
-```bash
-export ConnectionStrings__OmniPayDatabase="Host=localhost;Port=5432;Database=omnipay;Username=postgres;Password=<your-password>"
