@@ -65,9 +65,3 @@ The payment provider currently uses a simulated gateway instead of a real bank o
 - .NET SDK 8.0 or later
 - PostgreSQL or Docker
 
-### Database Connection
-
-You can provide the database connection string as an environment variable:
-
-```bash
-export ConnectionStrings__OmniPayDatabase="Host=localhost;Port=5432;Database=omnipay;Username=postgres;Password=<your-password>"
